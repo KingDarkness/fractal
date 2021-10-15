@@ -105,7 +105,7 @@ class ParamBag implements \ArrayAccess, \IteratorAggregate
      *
      * @return bool
      */
-    public function offsetExists($key)
+    public function offsetExists($key) : bool
     {
         return $this->__isset($key);
     }
